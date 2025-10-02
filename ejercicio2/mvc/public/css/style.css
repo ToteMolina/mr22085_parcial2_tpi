@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.container{
+    background-color: lightsteelblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+form{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+input {
+    border-radius: 5px;
+    border: none;
+}
+form button {
+    background-color: palegreen;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+}

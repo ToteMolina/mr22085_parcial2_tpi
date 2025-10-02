@@ -4,9 +4,7 @@ namespace app\controllers;
 
 class HomeController {
     public function index(){
-        return $this->view("HomeView", [
-            "title"=>"Home"
-        ]);
+        return $this->view("HomeView", []);
     }
 
     public function view($vista, $data=[]){

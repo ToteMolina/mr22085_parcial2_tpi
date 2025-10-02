@@ -4,7 +4,7 @@ namespace lib;
 
 class Route {
     private static $routes = [];
-    private static $URL_BASE = "/ejercicio1/mvc/public";
+    private static $URL_BASE = "/ejercicio2/mvc/public";
     public static function get($uri, $callback){
         self::$routes["GET"][self::$URL_BASE . $uri] = $callback;
     }
@@ -54,7 +54,7 @@ class Route {
            }
        }
        echo "404";
-   }
+    }
 }
 
 ?>
